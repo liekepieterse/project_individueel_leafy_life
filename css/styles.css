@@ -1,16 +1,16 @@
  header {
    background-color: #A8BAA9;
+   margin:-1em;
  }
 
  body {
    color: #47423B;
    background-color: #F9F5EF;
-
  }
 
- main{
-  border-bottom: 1em solid #A8BAA9;
-  padding-bottom: 2em;
+ main {
+   border-bottom: 1em solid #A8BAA9;
+   padding-bottom: 2em;
  }
 
  #menu__toggle {
@@ -97,10 +97,6 @@
    background-color: #94B3D1;
  }
 
- .colored{
-  background-color: #A8BAA9;
- }
-
  a:any-link {
    color: #47423B;
  }
@@ -116,6 +112,12 @@
    display: flex;
    justify-content: center;
  }
+
+ p, a, h1, h1{
+margin-left: 0.5em;
+margin: 0.5em;
+ }
+ 
 
  p,
  a,
@@ -139,12 +141,38 @@
    font-weight: 200;
  }
 
- .home_amsterdam, .wat_is_het, .woods, .kinderen, .bezoeken {
+ul{
+ list-style-type: none;
+ margin-left: -2em;
+ margin-right: -2em;
+}
+
+ul .colored{
+  background-color: #A8BAA9;
+
+}
+
+ .home_amsterdam,
+ .wat_is_het,
+ .woods,
+ .kinderen,
+ .bezoeken {
    display: flex;
    justify-content: center;
  }
 
- .foto_1, .foto_5, .foto_10, .foto_12 {
+ .home_tiny_forest,
+ .wie,
+ .tekst_2_amsterdam {
+   background-color: #A8BAA9;
+   margin: -0.2em;
+ }
+
+
+ .foto_1,
+ .foto_5,
+ .foto_10,
+ .foto_12 {
    justify-content: flex-end;
    max-width: 40vw;
    height: auto;
@@ -152,8 +180,8 @@
    order: 1;
  }
 
- .foto_11{
-  justify-content: flex-end;
+ .foto_11 {
+   justify-content: flex-end;
    max-width: 40vw;
    height: auto;
    display: block;
@@ -206,8 +234,8 @@
  }
 
  .bord {
-  display: flex;
-  justify-content: center;
+   display: flex;
+   justify-content: center;
  }
 
  .logo {
