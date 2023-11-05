@@ -1,3 +1,4 @@
+
  header {
    background-color: #A8BAA9;
    margin:-1em;
@@ -143,23 +144,24 @@ margin: 0.5em;
 
 ul{
  list-style-type: none;
- margin-left: -2em;
- margin-right: -2em;
+  margin-left: -1em;
+ margin-right: -1em; 
 }
 
 ul .colored{
   background-color: #A8BAA9;
-
+  padding: 0.3em;
 }
 
- .home_amsterdam,
- .wat_is_het,
- .woods,
- .kinderen,
- .bezoeken {
+ .home_amsterdam_naast_foto,
+ .wat_is_het_naast_foto,
+ .woods_naast_foto,
+ .bezoeken_naast_foto {
    display: flex;
-   justify-content: center;
+   justify-content: flex-end;
  }
+
+
 
  .home_tiny_forest,
  .wie,
@@ -168,10 +170,13 @@ ul .colored{
    margin: -0.2em;
  }
 
+.foto_10{
+  display: flex;
+  justify-content: center;
+  }
 
  .foto_1,
  .foto_5,
- .foto_10,
  .foto_12 {
    justify-content: flex-end;
    max-width: 40vw;
@@ -179,6 +184,7 @@ ul .colored{
    display: block;
    order: 1;
  }
+
 
  .foto_11 {
    justify-content: flex-end;
@@ -191,7 +197,7 @@ ul .colored{
  img {
    max-width: 40vw;
    max-height: 50vh;
- }
+ } 
 
  .fotos_home {
    margin-top: 2em;
