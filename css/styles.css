@@ -2,7 +2,18 @@
  header {
    background-color: #A8BAA9;
    margin:-1em;
+   height: 5em;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
  }
+
+.logo_header img {
+  width: 40vw;
+  height: auto;
+  margin-top: -1em;
+  margin-right: -1em;
+}
 
  body {
    color: #47423B;
@@ -94,9 +105,6 @@
    transition-duration: .30s;
  }
 
- .menu__item:hover {
-   background-color: #94B3D1;
- }
 
  a:any-link {
    color: #47423B;
@@ -114,7 +122,12 @@
    justify-content: center;
  }
 
- p, a, h1, h1{
+ .titel_home
+{
+  padding-bottom: 7em;
+}
+
+ p, a, h1{
 margin-left: 0.5em;
 margin: 0.5em;
  }
@@ -144,13 +157,37 @@ margin: 0.5em;
 
 ul{
  list-style-type: none;
-  margin-left: -1em;
- margin-right: -1em; 
+margin:0.1em;
 }
 
 ul .colored{
   background-color: #A8BAA9;
   padding: 0.3em;
+}
+
+.plant img, .plant_home img{
+max-width: 130vw;
+}
+
+.plant_amsterdam img{
+  max-width: 110vw;
+}
+
+.plant, .plant_amsterdam, .plant_home{
+  display: flex;
+  justify-content: center;
+}
+.plant_home{
+margin-top: -8em;
+margin-bottom: -17em;
+}
+
+.plant{
+  margin: -12em;
+}
+
+.plant_amsterdam{
+margin: -8em;
 }
 
  .home_amsterdam_naast_foto,
@@ -168,36 +205,53 @@ ul .colored{
  .tekst_2_amsterdam {
    background-color: #A8BAA9;
    margin: -0.2em;
+   padding: 0.5em
  }
 
 .foto_10{
   display: flex;
   justify-content: center;
+  padding: 1em;
+  }
+
+  .foto_10 img{
+    max-width: 60vw;
+   height: auto;
   }
 
  .foto_1,
  .foto_5,
  .foto_12 {
    justify-content: flex-end;
-   max-width: 40vw;
-   height: auto;
    display: block;
    order: 1;
  }
 
+ .foto_12{
+  padding-top: 1em;
+ }
+
+ .foto_1 img,
+ .foto_5 img,
+ .foto_12 img{
+ max-width: 40vw;
+ height: auto;
+ }
+
+ .tekst_3_amsterdam{
+  padding-top: 1em;
+ }
 
  .foto_11 {
    justify-content: flex-end;
-   max-width: 40vw;
-   height: auto;
    display: block;
  }
 
+ .foto_11 img{
+  max-width: 40vw;
+  height: auto;
+ }
 
- img {
-   max-width: 40vw;
-   max-height: 50vh;
- } 
 
  .fotos_home {
    margin-top: 2em;
@@ -243,16 +297,21 @@ ul .colored{
    display: flex;
    justify-content: center;
  }
-
- .logo {
-   display: flex;
-   align-items: end;
+ 
+ .bord img{
+  transition: transform 0.5s;
+  max-width: 70vw;
  }
 
- .logo img {
-   width: 100px;
-   height: auto;
-   margin-right: 10px;
+ .bord:active img{
+  transform: scale(1.5)
+ }
+
+ .logo_footer img{
+  width: 50vw;
+  height: auto;
+  margin-top: -1em;
+  margin-left: -2em;
  }
 
  footer {
