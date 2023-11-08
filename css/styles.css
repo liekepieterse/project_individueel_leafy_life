@@ -3,35 +3,34 @@ body {
   background-color: #F9F5EF;
 }
 
-header{
+header {
   background-color: #beccbb;
-  margin:-1em;
+  margin: -1em;
   margin-top: -1em;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: flex-start;
 }
 
-nav a{
-text-decoration: none;
- line-height: 1.7; 
+nav a {
+  text-decoration: none;
+  line-height: 1.7;
 }
 
-nav a:any-link{
-  color:rgb(93, 124, 152);
+nav a:any-link {
+  color: rgb(93, 124, 152);
 }
 
-ul{
+ul {
   list-style-type: none;
   font-size: 0.9em;
   margin-left: -1em;
   margin-top: 2em;
-  
-} 
+}
 
-.logo_header img{
+.logo_header img {
   width: 15vw;
 }
 
@@ -45,7 +44,7 @@ ul{
 
 main {
   padding-left: 1em;
-  padding-right: 2em;
+  padding-right: 1em;
 }
 
 h1 {
@@ -62,18 +61,25 @@ h1 {
 
 p,
 a,
-h2, h3 {
+h2,
+h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   font-size: 1em;
+}
+
+p,
+h2,
+h3 {
   font-weight: 100;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-weight: 500;
   padding-left: 0.5em;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
@@ -86,13 +92,14 @@ h2, h3 {
   font-stretch: normal;
 }
 
-.tk-the-seasons, .tk-the-seasons_home {
+.tk-the-seasons,
+.tk-the-seasons_home {
   font-family: "the-seasons", sans-serif;
   font-weight: 200;
   font-size: 2em;
 }
 
-.tk-the-seasons_home{
+.tk-the-seasons_home {
   padding-bottom: 3em;
 }
 
@@ -100,16 +107,17 @@ a:any-link {
   color: #47423B;
 }
 
-body a, .link p{
+a,
+.link p {
   text-decoration-color: #749cc5;
   text-decoration-thickness: 0.3em;
   text-underline-offset: 0.3em;
   font-size: 0.9em;
-  font-weight: 1000;
+  font-weight: 900;
 }
 
-.link{
-  display:flex;
+.link {
+  display: flex;
   justify-content: center;
   text-align: center;
 }
@@ -128,7 +136,7 @@ body a, .link p{
 
 .plant_home {
   margin-top: 1em;
-  margin-bottom:-8em;
+  margin-bottom: -8em;
 }
 
 .plant_amsterdam img {
@@ -147,7 +155,7 @@ body a, .link p{
   display: block;
 }
 
-.foto24 img{
+.foto24 img {
   max-width: 15vw;
 }
 
@@ -156,7 +164,7 @@ body a, .link p{
   margin: 0.5em;
 }
 
-.foto3 img{
+.foto3 img {
   max-width: 50vw;
 }
 
@@ -176,16 +184,16 @@ body a, .link p{
 
 .foto_1 img,
 .foto_5 img,
-.foto_12 img 
-.foto_11 img{
-  margin:0.5em;
+.foto_12 img .foto_11 img {
+  margin: 0.5em;
 }
 
-.foto_1 img{
+.foto_1 img {
   max-width: 40vw;
 }
 
-.foto_5 img, .foto_12 img{
+.foto_5 img,
+.foto_12 img {
   max-width: 35vw;
 }
 
@@ -200,7 +208,8 @@ body a, .link p{
 
 .home_tiny_forest,
 .wie,
-.tekst_2_amsterdam, .tekst_2_tiny_forest {
+.tekst_2_amsterdam,
+.tekst_2_tiny_forest {
   background-color: #A8BAA9;
   margin-top: 1em;
   padding: 1em;
@@ -282,7 +291,7 @@ body a, .link p{
   flex-direction: column;
 }
 
-.voordelen h2{
+.voordelen h2 {
   margin-bottom: -0.5em;
 }
 
@@ -300,3 +309,8 @@ footer {
   margin-right: -1em;
   margin-top: 1em;
 }
+
+/* body header nav ul li a{
+  font-size: 0.9em;
+  font-weight: 900;
+} */
