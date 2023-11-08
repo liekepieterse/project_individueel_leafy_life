@@ -1,12 +1,12 @@
-header{
-  background-color: #88af95;
-  margin:-1em;
-  margin-top: -1em;
+body {
+  color: #47423B;
+  background-color: #F9F5EF;
 }
 
-nav a{
-  text-decoration: none;
- line-height: 1.7; 
+header{
+  background-color: #beccbb;
+  margin:-1em;
+  margin-top: -1em;
 }
 
 nav{
@@ -14,29 +14,33 @@ nav{
   justify-content: flex-start;
 }
 
+nav a{
+text-decoration: none;
+ line-height: 1.7; 
+}
+
+nav a:any-link{
+  color:rgb(93, 124, 152);
+}
+
 ul{
   list-style-type: none;
   font-size: 0.9em;
-  margin-left: 0 em;
+  margin-left: -1em;
   margin-top: 2em;
   
 } 
 
- .logo_header img{
+.logo_header img{
   width: 15vw;
 }
 
 .logo_header {
   width: 15vw;
   height: auto;
-  top: 3%;
-  right: 5%;
+  top: 0;
+  right: 0;
   position: absolute;
-}
-
-body {
-  color: #47423B;
-  background-color: #F9F5EF;
 }
 
 main {
@@ -44,11 +48,57 @@ main {
   padding-right: 2em;
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+p,
+a,
+h1 {
+  margin-left: 0.5em;
+  margin: 0.5em;
+}
+
+p,
+a,
+h2, h3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+h2, h3 {
+  font-weight: 500;
+  padding-left: 0.5em;
+}
+
+.hidden{
+  display: none;
+}
+
+@font-face {
+  font-family: "the-seasons";
+  src: url("https://use.typekit.net/af/6fce40/00000000000000007750b305/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"), url("https://use.typekit.net/af/6fce40/00000000000000007750b305/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"), url("https://use.typekit.net/af/6fce40/00000000000000007750b305/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 300;
+  font-stretch: normal;
+}
+
+.tk-the-seasons, .tk-the-seasons_home {
+  font-family: "the-seasons", sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+}
+
+.tk-the-seasons_home{
+  padding-bottom: 3em;
+}
 
 a:any-link {
   color: #47423B;
 }
-
 
 body a, .link p{
   text-decoration-color: #749cc5;
@@ -64,91 +114,6 @@ body a, .link p{
   text-align: center;
 }
 
-
-h1 {
-  display: flex;
-  justify-content: center;
-}
-
-
-
-.titel_home {
-  padding-bottom: 7em;
-}
-
-p,
-a,
-h1 {
-  margin-left: 0.5em;
-  margin: 0.5em;
-}
-
-p,
-a,
-h2 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  font-size: 1em;
-  font-weight: 100;
-}
-
-h2 {
-  font-weight: 500;
-  padding-left: 0.5em;
-}
-
-@font-face {
-  font-family: "the-seasons";
-  src: url("https://use.typekit.net/af/6fce40/00000000000000007750b305/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"), url("https://use.typekit.net/af/6fce40/00000000000000007750b305/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"), url("https://use.typekit.net/af/6fce40/00000000000000007750b305/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
-  font-display: auto;
-  font-style: italic;
-  font-weight: 300;
-  font-stretch: normal;
-}
-
-.tk-the-seasons {
-  font-family: "the-seasons", sans-serif;
-  font-weight: 200;
-  font-size: 2em;
-}
-
-
-.colored,
-.not_colored {
-  padding: 0.5em;
-  display: flex;
-  flex-wrap: wrap;
-  width: 60vw;
-}
-
-.not_colored {
-  justify-content: left;
-}
-
-.colored {
-  background-color: #A8BAA9;
-  align-self: flex-end;
-}
-
-.voordelen {
-  margin-top: 2em;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-}
-
-.voordelen h2{
-  margin-bottom: -0.5em;
-}
-
-.plant img,
-.plant_home img {
-  max-width: 100vw;
-}
-
-.plant_amsterdam img {
-  max-width: 100vw;
-}
-
 .plant,
 .plant_amsterdam,
 .plant_home {
@@ -156,11 +121,73 @@ h2 {
   justify-content: center;
 }
 
+.plant img,
+.plant_home img {
+  max-width: 100vw;
+}
+
 .plant_home {
   margin-top: 1em;
   margin-bottom:-8em;
 }
 
+.plant_amsterdam img {
+  max-width: 100vw;
+}
+
+.fotos_home {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+}
+
+.foto24 img,
+.foto3 img {
+  height: auto;
+  display: block;
+}
+
+.foto24 img{
+  max-width: 15vw;
+}
+
+.foto24 {
+  display: flex;
+  margin: 0.5em;
+}
+
+.foto3 img{
+  max-width: 50vw;
+}
+
+.foto3 {
+  display: flex;
+  align-items: center;
+
+}
+
+.foto_1,
+.foto_5,
+.foto_12 {
+  justify-content: flex-end;
+  display: block;
+  order: 1;
+}
+
+.foto_1 img,
+.foto_5 img,
+.foto_12 img 
+.foto_11 img{
+  margin:0.5em;
+}
+
+.foto_1 img{
+  max-width: 40vw;
+}
+
+.foto_5 img, .foto_12 img{
+  max-width: 35vw;
+}
 
 .home_amsterdam_naast_foto,
 .wat_is_het_naast_foto,
@@ -173,16 +200,10 @@ h2 {
 
 .home_tiny_forest,
 .wie,
-.tekst_2_amsterdam {
+.tekst_2_amsterdam, .tekst_2_tiny_forest {
   background-color: #A8BAA9;
   margin-top: 1em;
   padding: 1em;
-}
-
-.tekst_2_tiny_forest{
-  background-color:#A8BAA9;
-  margin-top:1em;
-  padding:1em;
 }
 
 .foto_10 {
@@ -196,38 +217,6 @@ h2 {
   height: auto;
 }
 
-.foto_1,
-.foto_5,
-.foto_12 {
-  justify-content: flex-end;
-  display: block;
-  order: 1;
-}
-
-.foto_12 {
-  padding-top: 1em;
-  margin-left: -3em;
-  margin-right: -2em;
-}
-
-.foto_1 img,
-.foto_5 img,
-.foto_12 img {
-  max-width: 60vw;
-  height: auto;
-}
-
-.foto_1 img{
-  margin-left: -3em;
-  margin-right: -3em;
-  margin-top: -1em;
-}
-
-.foto_5 img{
-  margin-right: -3em;
-  margin-left: -2em;
-}
-
 .tekst_3_amsterdam {
   padding-top: 1em;
 }
@@ -238,41 +227,7 @@ h2 {
 }
 
 .foto_11 img {
-  max-width: 50vw;
-  height: auto;
-  margin-right: -1em;
-  margin-left: -1em;
-}
-
-
-.fotos_home {
-  margin-top: 2em;
-  display: flex;
-  flex-direction: row;
-}
-
-.foto24 {
-  display: flex;
-  margin: 0.5em;
-}
-
-.foto24 img,
-.foto3 img {
-  height: auto;
-  display: block;
-}
-.foto24 img{
-  max-width: 15vw;
-}
-
-.foto3 img{
-  max-width: 50vw;
-}
-
-.foto3 {
-  display: flex;
-  align-items: center;
-
+  max-width: 40vw;
 }
 
 .fotos_door_wie {
@@ -303,16 +258,43 @@ h2 {
   transform: scale(1.5)
 }
 
+.colored,
+.not_colored {
+  padding: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+}
+
+.not_colored {
+  justify-content: left;
+}
+
+.colored {
+  background-color: #A8BAA9;
+  align-self: flex-end;
+}
+
+.voordelen {
+  margin-top: 2em;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.voordelen h2{
+  margin-bottom: -0.5em;
+}
+
 
 .logo_footer img {
   width: 20vw;
   height: auto;
   margin-top: 1em;
-  margin-left: 2em;
 }
 
 footer {
-  background-color: #88af95;
+  background-color: #beccbb;
   margin-bottom: -1em;
   margin-left: -1em;
   margin-right: -1em;
