@@ -20,7 +20,7 @@ nav a {
 }
 
 nav a:any-link {
-  color: rgb(93, 124, 152);
+  color: #5d7c98;
 }
 
 ul {
@@ -309,8 +309,3 @@ footer {
   margin-right: -1em;
   margin-top: 1em;
 }
-
-/* body header nav ul li a{
-  font-size: 0.9em;
-  font-weight: 900;
-} */
